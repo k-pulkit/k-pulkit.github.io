@@ -39,7 +39,9 @@
   (info, $info-color),
   (facebook, $facebook-color),
   (twitter, $twitter-color),
-  (linkedin, $linkedin-color);
+  (linkedin, $linkedin-color),
+  (reddit, $reddit-color),
+  (stackoverflow, $stackoverflow-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
@@ -94,4 +96,10 @@
   &--small {
     font-size: $type-size-7;
   }
+
+  /* small button */
+  &--xsmall {
+    font-size: $type-size-9;
+  }
+  
 }
