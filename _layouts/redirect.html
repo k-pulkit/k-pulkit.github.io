@@ -1,15 +1,16 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">
-        <script type="text/javascript">
-            window.location.href = "{{ page.redirect_url }}"
-        </script>
-        <title>Page Redirection</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='{{ page.redirect_url }}'>link to example</a>.
-    </body>
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="canonical" href="{{ page.redirect_url }}"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="0;url={{ page.redirect_url }}" />
+</head>
+<body>
+    <h1>Redirecting...</h1>
+      <a href="{{ page.redirect_url }}">Click here if you are not redirected.<a>
+      <script>location='{{ page.redirect_url }}'</script>
+</body>
 </html>

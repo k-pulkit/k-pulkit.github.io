@@ -1,6 +1,7 @@
 ---
-permalink: /resume
 title: My amazing post
+sitemap: false
 layout: redirect
-redirect_url: https://k-pulkit.github.io/resume/
+permalink: /resume/
+redirect_url: "https://k-pulkit.github.io/resume/"
 ---
