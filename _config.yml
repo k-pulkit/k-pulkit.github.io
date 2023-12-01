@@ -13,6 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.20.2"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin2: "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -300,3 +301,15 @@ defaults:
       related: true
       show_date: true
       toc: true
+
+
+# Defined collections
+collections_dir: /collections
+collections:
+  portfolio:
+    label: Portfolio
+    output: true
+    permalink: /:collection/:path/
+
+
+
