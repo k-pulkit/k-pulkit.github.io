@@ -8,5 +8,7 @@ main:
     url: /blog/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Resume"
+    url: /resume/
   - title: "Connect"
     url: /connect/
