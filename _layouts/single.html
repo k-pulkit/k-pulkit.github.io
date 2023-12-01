@@ -69,7 +69,9 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+    <!-- jekyll.environment == 'production' and -->
+
+    {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
   </article>
