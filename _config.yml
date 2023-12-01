@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.20.2"
+#remote_theme             : "mmistakes/minimal-mistakes@4.20.2"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin2: "dark"
 
@@ -222,8 +222,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate: 8 # amount of posts to show
+paginate_path: /blog/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -301,6 +301,8 @@ defaults:
       related: true
       show_date: true
       toc: true
+      toc_label: "Table of Contents"
+      toc_icon: "heart" 
   # _portfolio
   - scope:
       path: ""
@@ -312,7 +314,7 @@ defaults:
 
 
 # Defined collections
-collections_dir: /collections
+collections_dir: my_collections
 collections:
   portfolio:
     label: Portfolio
