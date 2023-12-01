@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data-Engineer's World!"
+title                    : "Pulkit Kapoor"
 title_separator          : "-"
-subtitle                 : "Aim for big, and focus on small. 😎" # site tagline that appears below site title in masthead
+subtitle                 : "Just stay in awe!" # site tagline that appears below site title in masthead
 name                     : "Pulkit Kapoor"
 description              : "An amazing website."
 url                      : "https://k-pulkit.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "k-pulkit/me" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Give mashhead title in config" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true #true, false (default)
 words_per_minute         : 200
 comments:

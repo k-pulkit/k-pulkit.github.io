@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/mm-home-page-feature.jpg
-  cta_label: "<i class='fa fa-linkedin'></i> Read my blog."
+  cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
   cta_url: "/docs/quick-start-guide/"
   caption:
 excerpt: 'Welcome to Data Engineers world. This is my sweet little website that serve as a entry point into my world. Here, you can read my ideas on my blog, learn more about me, my projects, and connect with me. <br /><br /> 
@@ -15,7 +15,7 @@ excerpt: 'Welcome to Data Engineers world. This is my sweet little website that 
 <a href="https://www.reddit.com/user/solve-r" class="btn btn--xsmall btn--reddit" title="Follow me"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> reddit</span></a>
 <a href="https://stackoverflow.com/users/6638930/pulkit-kapoor" class="btn btn--xsmall btn--stackoverflow" title="Follow me"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span> stackoverflow</span></a>'
 feature_row:
-  - image_path: /assets/images/mm-home-page-feature-1.jpeg
+  - image_path: /assets/images/mm-home-page-feature-1.jpg
     alt: "My Blog"
     title: "Visit my Blog"
     excerpt: "I like to write about data engineering articles, and able solutions to sticky bugs that come in my day job."
