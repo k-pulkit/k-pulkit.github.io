@@ -35,12 +35,10 @@ feature_row:
     btn_label: "Learn More"
 github:
   - excerpt: '{::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown}'
-intro:
-  - excerpt: 'For any questions, shoot a message to my linkedin! &nbsp; [<i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> @k-pulkit](https://linkedin.com/in/k-pulkit){: .btn .btn--twitter}'
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-{% include feature_row id="github" type="center" %}
+<!-- {% include feature_row id="github" type="center" %} -->

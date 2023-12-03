@@ -28,3 +28,12 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
+
+.site-logo {
+  -webkit-filter : hue-rotate(180deg);
+  filter : invert(100%);
+}
+
+.site-subtitle {
+  color: rgb(255,255,255,0.8) !important;
+}

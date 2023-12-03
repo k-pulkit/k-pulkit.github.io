@@ -68,11 +68,11 @@
     font-size: $type-size-3;
 
     @include breakpoint($large) {
-      font-size: $type-size-2;
+      font-size: $type-size-6;
     }
 
     @include breakpoint($x-large) {
-      font-size: $type-size-1;
+      font-size: $type-size-5;
     }
   }
 
@@ -115,8 +115,8 @@
 /* Algolia search */
 
 .ais-search-box {
-  max-width: 100% !important;
-  margin-bottom: 2em;
+  max-width: 60% !important;
+  margin-bottom: 0.5em;
 }
 
 .archive__item-title .ais-Highlight {
