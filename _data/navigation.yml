@@ -2,10 +2,14 @@
 main:
   - title: "Home"
     url: /
-  # - title: "Learn"
-  #   url: /learn
+  - title: "Learn"
+    url: /learn
   - title: "Blog"
     url: /blog/
+  - title: "Posts"
+    url: /year-archive
+  - title: "Categories"
+    url: /categories
   # - title: "Portfolio"
   #   url: /portfolio
   - title: "Resume"
@@ -14,3 +18,11 @@ main:
   #   url: /connect
   # - title: "About me"
   #   url: /about
+
+terraform:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /learn/terraform/quick-start-guide
+      - title: "Structure"
+        url: /learn/terraform/structure

@@ -312,6 +312,18 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _terraform
+  - scope:
+      path: ""
+      type: terraform
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "terraform"
 
 
 # Defined collections
@@ -321,6 +333,10 @@ collections:
     label: Portfolio
     output: true
     permalink: /:collection/:path/
+  terraform:
+    label: Terraform
+    output: true
+    permalink: /learn/:collection/:path/
 
 
 
