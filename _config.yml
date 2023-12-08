@@ -210,9 +210,9 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  parse_block_html: true
 
 
 # Sass/SCSS
@@ -297,13 +297,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
       show_date: true
       toc: true
       toc_label: "Table of Contents"
-      toc_icon: "heart" 
+      toc_icon: "book" 
+      toc_sticky: true
   # _portfolio
   - scope:
       path: ""
@@ -318,9 +319,9 @@ defaults:
       type: terraform
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: false
-      share: false
+      share: true
       comments: false
       sidebar:
         nav: "terraform"

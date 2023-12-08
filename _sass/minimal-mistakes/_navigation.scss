@@ -222,7 +222,25 @@
 .page__comments + .pagination {
   margin-top: 0.1em;
   padding-top: 0.1em;
+  border-top: 1px solid $border-color;
+}
+
+.page__comments {
+  @include clearfix();
+  float: left;
+  margin-top: 1em;
+  padding-top: 0em;
   // border-top: 1px solid $border-color;
+
+  @include breakpoint($large) {
+    float: left;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-left: calc(#{$right-sidebar-width-narrow} + 2.5em);
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+  }
 }
 
 /*
