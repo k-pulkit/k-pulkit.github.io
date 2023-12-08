@@ -7,7 +7,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
-  cta_url: "/docs/quick-start-guide/"
+  cta_url: "/categories/"
   caption:
 excerpt: 'Welcome to Data Engineers world. This is my sweet little website that serve as a entry point into my world. Here, you can read my ideas on my blog, learn more about me, my projects, and connect with me. <br /><br /> 
 {::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown} <br />
