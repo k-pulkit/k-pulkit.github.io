@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
-  margin-bottom: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
 
   @include breakpoint($large) {
     float: right;
@@ -44,8 +44,10 @@
 }
 
 .archive__item-title {
+  font-size: $type-size-6 !important;
+  margin-top: 1.25em !important;
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: Novecento Wide;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -74,7 +76,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-7 !important;
 
   & + p {
     text-indent: 0;
@@ -126,8 +128,9 @@
 
 .list__item {
   .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
+    margin: 4px 0 4px 0;
+    font-size: $type-size-8;
+    color: gray;
   }
 }
 
@@ -150,7 +153,7 @@
 }
 
 .grid__item {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   @include breakpoint($small) {
     float: left;
@@ -198,7 +201,7 @@
 
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: $type-size-9;
   }
 
   .page__meta-sep {
@@ -215,8 +218,8 @@
   }
 
   .archive__item-excerpt {
-    display: none;
-
+    display: none !important;
+    
     @include breakpoint($medium) {
       display: block;
       font-size: $type-size-6;

@@ -2,15 +2,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "Learn"
-    url: /learn
+  # - title: "Learn"
+  #   url: /learn
   - title: "Blog"
     url: /blog/
-  - title: "Portfolio"
-    url: /portfolio
+  # - title: "Portfolio"
+  #   url: /portfolio
   - title: "Resume"
     url: /resume
-  - title: "Connect"
-    url: /connect
-  - title: "About me"
-    url: /about
+  # - title: "Connect"
+  #   url: /connect
+  # - title: "About me"
+  #   url: /about

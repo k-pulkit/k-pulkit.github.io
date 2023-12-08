@@ -71,11 +71,12 @@ layout: default
 
     <!-- jekyll.environment == 'production' and -->
 
-    {% if site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
   </article>
 
   {% include related_posts.html %}
+
+  {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+  {% endif %}
   
 </div>

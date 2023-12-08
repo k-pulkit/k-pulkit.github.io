@@ -1,12 +1,12 @@
 {% if page.previous or page.next %}
-  <section class="post-pagination">
-    <ul>
+  <section class="pagination">
+    <div class="prev-next-container">
       {% if page.previous %}
-        <li><a href="{{ page.previous.url | relative_url }}" class="pagination-link bold" title="{{ page.previous.title | markdownify | strip_html }}"><strong>{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</strong>: {{ page.previous.title | markdownify | strip_html }}</a></li>
+        <a href="{{ page.previous.url | relative_url }}" class="prev" title="{{ page.previous.title | markdownify | strip_html }}"><strong><small><<</small></strong> {{ page.previous.title | markdownify | strip_html }}</a>
       {% endif %}
       {% if page.next %}
-        <li><a href="{{ page.next.url | relative_url }}" class="pagination-link bold next" title="{{ page.next.title | markdownify | strip_html }}"><strong>{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</strong>: {{ page.next.title | markdownify | strip_html }}</a></li>
+        <a href="{{ page.next.url | relative_url }}" class="next" title="{{ page.next.title | markdownify | strip_html }}">{{ page.next.title | markdownify | strip_html }} <strong><small>>></small></strong></a>
       {% endif %}
-    </ul>
+    </div>
   </section>
 {% endif %}
