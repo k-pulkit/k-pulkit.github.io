@@ -212,7 +212,6 @@ kramdown:
   entity_output: as_char
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true
 
 
 # Sass/SCSS
