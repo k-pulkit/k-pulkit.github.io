@@ -119,6 +119,22 @@ body {
     line-height: 1.8;
     margin-bottom: 3px;
     margin-top: 3px;
+
+    a {
+      font-weight: 700 !important;
+      color: rgb(79, 78, 78);
+    }
+
+    /* Font size for nested list items */
+    & li {
+      font-size: calc(100% - 8%); /* Inherit font size from the parent */
+      
+      a {
+        font-weight: 600 !important;
+        color: gray;
+      }
+    }
+
   }
 
   /* paragraph indents */
