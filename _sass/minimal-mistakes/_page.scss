@@ -119,7 +119,10 @@ body {
     line-height: 1.8;
     margin-bottom: 3px;
     margin-top: 3px;
+  }
 
+  .toc__menu li {
+    
     a {
       font-weight: 700 !important;
       color: rgb(79, 78, 78);
@@ -134,8 +137,9 @@ body {
         color: gray;
       }
     }
-
   }
+
+
 
   /* paragraph indents */
   p {
