@@ -35,10 +35,31 @@ feature_row:
     btn_label: "Learn More"
 github:
   - excerpt: '{::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown}'
+gallery:
+  - url: /learn/terraform/quick-start-guide/
+    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Learning Terraform for AWS"
+    description: "This is lear aning goal for me. I will be practicing some labs to get the knack of using IAC for AWS. Focus will be data engineering stack. <br/><br/>#labs #aws #learnwithme"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "Project - 1"
+    title: "Project - 1"
+    description: "Work in Progress"
+  - url: /learn
+    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "Learn page."
+    title: "More at :: LEARN"
+    description: "Click here! This section will grow as I learn and blog my learnings."
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+# Explore
 
+You get to choose. <br />Learn with me in my `learning collections`. Or, read my `blogs` where I post about things I come across, random snippets of knowledge.
+{: .notice--info}
+
+{% include gallery caption="---" %}
+{% include feature_row caption="---" %}
 <!-- {% include feature_row id="github" type="center" %} -->
