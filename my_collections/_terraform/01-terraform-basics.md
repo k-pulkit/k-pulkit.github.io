@@ -1,19 +1,21 @@
 ---
 title: "Quick-Start Guide"
-permalink: /learn/terraform/quick-start-guide/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2023-12-11
+permalink: /learn/terraform/basics/
+excerpt: "Learn basics about terraform for IAC"
+last_modified_at: 2024-01-09
 tags:
     - learning
     - iac
     - terraform
     - aws
+    - basics
 redirect_from:
-  - /theme-setup/
+  - /terraform/
+  - /learn/terraform/
 toc: true
 ---
 
-## Introduction
+## Introduction 
 In this series, we are going to focus our attention on Terraform. This series is different in the sense that I will be learning along as I write about it.
 
 Terraform is an open-source Infrastructure as Code (IaC) tool designed by HashiCorp. It enables users to define and provision infrastructure and resources in a declarative manner using a high-level configuration language. 

@@ -20,9 +20,21 @@ main:
   #   url: /about
 
 terraform:
-  - title: Getting Started
+  - title: Basics
     children:
-      - title: "Quick-Start Guide"
-        url: /learn/terraform/quick-start-guide
-      - title: "Structure"
-        url: /learn/terraform/structure
+      - title: "Basics"
+        url: /learn/terraform/basics
+      - title: "Terraform state"
+        url: /learn/terraform/state
+  - title: Advanced
+    children:
+      - title: "Terraform Modules"
+        url: /learn/terraform/modules
+      - title: "Dynamic Blocks"
+        url: /learn/terraform/blocks
+      - title: "CLI Commands"
+        url: /learn/terraform/commands
+  - title: Hands-on
+    children:
+      - title: "Project"
+        url: /learn/terraform/project
