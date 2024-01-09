@@ -36,7 +36,7 @@ feature_row:
 github:
   - excerpt: '{::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown}'
 gallery:
-  - url: /learn/terraform/quick-start-guide/
+  - url: /learn/terraform
     image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "Learning Terraform for AWS"

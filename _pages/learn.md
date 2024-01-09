@@ -15,7 +15,7 @@ header:
       url: /categories
 classes: wide
 gallery:
-  - url: /learn/terraform/basics
+  - url: /learn/terraform
     image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "Learning Terraform for AWS"
