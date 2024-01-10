@@ -10,3 +10,11 @@ tags:
     - aws
 toc: true
 ---
+
+## Types of variables
+
+## Introduction to for_each
+
+## Dynamic keyword
+
+## Using dynamic blocks for Ingress
