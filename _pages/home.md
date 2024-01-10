@@ -37,7 +37,7 @@ github:
   - excerpt: '{::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown}'
 gallery:
   - url: /learn/terraform
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
     alt: "placeholder image 1"
     title: "Learning Terraform for AWS"
     description: "This is lear aning goal for me. I will be practicing some labs to get the knack of using IAC for AWS. Focus will be data engineering stack. <br/><br/>#labs #aws #learnwithme"
