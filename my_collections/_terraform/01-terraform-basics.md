@@ -1,6 +1,6 @@
 ---
 title: "Quick-Start Guide"
-permalink: /learn/terraform/basics
+permalink: /learn/terraform/basics/
 excerpt: "Learn basics about terraform for IAC"
 last_modified_at: 2024-01-09
 tags:

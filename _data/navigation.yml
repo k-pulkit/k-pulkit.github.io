@@ -23,18 +23,18 @@ terraform:
   - title: Basics
     children:
       - title: "Basics"
-        url: /learn/terraform/basics
+        url: /learn/terraform/basics/
       - title: "Terraform state"
-        url: /learn/terraform/state
+        url: /learn/terraform/state/
   - title: Advanced
     children:
       - title: "Terraform Modules"
-        url: /learn/terraform/modules
+        url: /learn/terraform/modules/
       - title: "Dynamic Blocks"
-        url: /learn/terraform/blocks
+        url: /learn/terraform/blocks/
       - title: "CLI Commands"
-        url: /learn/terraform/commands
+        url: /learn/terraform/commands/
   - title: Hands-on
     children:
       - title: "Project"
-        url: /learn/terraform/project
+        url: /learn/terraform/project/
