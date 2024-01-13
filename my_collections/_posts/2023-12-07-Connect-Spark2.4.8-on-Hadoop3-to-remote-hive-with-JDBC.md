@@ -7,6 +7,7 @@ tags:
     - spark
     - remotehive
     - hivejdbc
+    - dataengineering
 excerpt: If you have ever tried to connect to Hive-1.2 JDBC and faced issues then this post is for you. I am going to mention the issues I faced in my use-case.
 ---
 
