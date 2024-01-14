@@ -168,11 +168,11 @@
 
   /* Container for previous and next buttons */
   .prev-next-container {
-    background-color: rgb(255, 68, 0, 0.8);
+    background-color: rgba(55, 52, 50, 0.881);
     border-radius: $border-radius;
-    padding: 10px;
+    padding: 0.1em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%; /* Adjust the width as needed */
   }
 
@@ -180,13 +180,13 @@
   .prev,
   .next {
     font-family: $sans-serif;
-    font-size: $type-size-8;
-    font-weight: 500;
+    font-size: $type-size-6;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
     color: white;
     border-radius: $border-radius;
-    padding: 0.5em 1em;
+    padding: 0.7em 0.5em;
     flex-grow: 1; /* Allow the buttons to grow equally */
   }
 
@@ -199,7 +199,7 @@
     border-right: 1px solid mix(white, $border-color, 25%);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    text-align: left;
+    text-align: center;
     padding-left: 10px;
   }
 
@@ -207,7 +207,7 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     // margin-left: -1px;
-    text-align: right;
+    text-align: center;
     padding-right: 10px;
     // float: right !important;
   }

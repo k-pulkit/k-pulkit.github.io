@@ -2,10 +2,10 @@
   <section class="pagination">
     <div class="prev-next-container">
       {% if page.previous %}
-        <a href="{{ page.previous.url | relative_url }}" class="prev" title="{{ page.previous.title | markdownify | strip_html }}"><strong><small><<</small></strong> {{ page.previous.title | markdownify | strip_html }}</a>
+        <a href="{{ page.previous.url | relative_url }}" class="prev" title="{{ page.previous.title | markdownify | strip_html }}"><strong>{% if page.next %}{% else %}Previous :  {% endif %}</strong> {{ page.previous.title | markdownify | strip_html }}</a>
       {% endif %}
       {% if page.next %}
-        <a href="{{ page.next.url | relative_url }}" class="next" title="{{ page.next.title | markdownify | strip_html }}">{{ page.next.title | markdownify | strip_html }} <strong><small>>></small></strong></a>
+        <a href="{{ page.next.url | relative_url }}" class="next" title="{{ page.next.title | markdownify | strip_html }}"><strong>{% if page.previous %}{% else %}Next :  {% endif %}</strong> {{ page.next.title | markdownify | strip_html }}</a>
       {% endif %}
     </div>
   </section>
