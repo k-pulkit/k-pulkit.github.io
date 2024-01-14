@@ -1,15 +1,15 @@
 ---
 layout: splash
 permalink: /
-title: Welcome
+title: Hey there!
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  # overlay_color: "#000"
+  # overlay_filter: "0.5"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
   cta_url: "/categories/"
   caption:
-excerpt: 'Welcome to Data Engineers world. This is my sweet little website that serve as a entry point into my world. Here, you can read my ideas on my blog, learn more about me, my projects, and connect with me. <br /><br /> 
+excerpt: 'Welcome to my webite. For get most out of it, I advice you to drop your fear and try hands-on. Head to the learn section to explore curated articles, or explore the posts I have written posts for subject of my interests. <br /><br /> 
 {::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown} <br />
 <a href="https://linkedin.com/in/k-pulkit" class="btn btn--xsmall btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> linkedin</span></a>
 <a href="https://www.reddit.com/user/solve-r" class="btn btn--xsmall btn--reddit" title="Follow me"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> reddit</span></a>
@@ -40,17 +40,16 @@ gallery:
     image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
     alt: "placeholder image 1"
     title: "Learning Terraform for AWS"
-    description: "This is lear aning goal for me. I will be practicing some labs to get the knack of using IAC for AWS. Focus will be data engineering stack. <br/><br/>#labs #aws #learnwithme"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "Project - 1"
-    title: "Project - 1"
-    description: "Work in Progress"
+    description: "In the set of quick reads, we will explore how to use the terraform for infrastructure deployment on AWS. <br/><br/>#labs #aws #learnwithme"
+  - url: /learn/serverless
+    image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
+    alt: "placeholder image 1"
+    title: "Learning Serverless Framework for AWS"
+    description: "Terraform is great, but it comes to serverless deployments use something designed for it. Let's explore the serverless framework. <br/><br/>#labs #aws #learnwithme"
   - url: /learn
     image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     alt: "Learn page."
-    title: "More at :: LEARN"
-    description: "Click here! This section will grow as I learn and blog my learnings."
+    title: "Explore more."
 ---
 
 {% include feature_row id="intro" type="center" %}

@@ -19,8 +19,16 @@ main:
   # - title: "About me"
   #   url: /about
 
+serverless:
+  - title: Basics FIrst
+    children:
+      - title: "The Serverless framework"
+        url: /learn/serverless/basics/
+      - title: "The serverless framework"
+        url: /learn/serverless/state/
+
 terraform:
-  - title: Basics
+  - title: Basics First
     children:
       - title: "Basics"
         url: /learn/terraform/basics/

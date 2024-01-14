@@ -324,6 +324,18 @@ defaults:
       comments: false
       sidebar:
         nav: "terraform"
+  # _serverless
+  - scope:
+      path: ""
+      type: serverless
+    values:
+      layout: single
+      read_time: true
+      author_profile: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "serverless"
 
 
 # Defined collections
@@ -335,6 +347,10 @@ collections:
     permalink: /:collection/:path/
   terraform:
     label: Terraform
+    output: true
+    permalink: /learn/:collection/:path/
+  serverless:
+    label: Serverless
     output: true
     permalink: /learn/:collection/:path/
 
