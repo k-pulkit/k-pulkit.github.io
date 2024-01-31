@@ -2,7 +2,7 @@
 title: "Basics of IaC with terraform"
 last_modified_at: 2023-12-11
 categories:
-    - IaC (Infra as code)
+    - Infra as code
 tags:
     - learning
     - iac

@@ -2,7 +2,7 @@
 title: "Make terraform projects easy to maintain"
 last_modified_at: 2023-12-17
 categories:
-    - IaC (Infra as code)
+    - Infra as code
 tags:
     - learning
     - iac

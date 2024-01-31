@@ -2,7 +2,7 @@
 title: "What is terraform state"
 last_modified_at: 2023-12-13
 categories:
-    - IaC (Infra as code)
+    - Infra as code
 tags:
     - learning
     - iac

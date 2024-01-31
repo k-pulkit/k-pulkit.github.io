@@ -1,6 +1,8 @@
 ---
 title: "What is serverless framework"
 last_modified_at: 2024-01-09
+categories:
+    - Infra as code
 tags:
     - iac
     - serverless
