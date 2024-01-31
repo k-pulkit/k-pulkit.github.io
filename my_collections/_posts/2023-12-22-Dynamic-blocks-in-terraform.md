@@ -2,7 +2,7 @@
 title: "Terraform dynamic blocks"
 last_modified_at: 2023-12-22
 categories:
-    - IaC (Infrastructure as code)
+    - IaC (Infra as code)
 tags:
     - learning
     - iac
