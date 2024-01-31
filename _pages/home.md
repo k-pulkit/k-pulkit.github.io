@@ -9,7 +9,7 @@ header:
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
   cta_url: "/categories/"
   caption:
-excerpt: 'Welcome to my webite. For get most out of it, I advice you to drop your fear and try hands-on. Head to the learn section to explore curated articles, or explore the posts I have written posts for subject of my interests. <br /><br /> 
+excerpt: 'Welcome to my website. Here, I write articles about data engineering and cloud. Having tried different cloud platforms, I am a big fan and practitioner of AWS. <br /><br /> 
 {::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown} <br />
 <a href="https://linkedin.com/in/k-pulkit" class="btn btn--xsmall btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> linkedin</span></a>
 <a href="https://www.reddit.com/user/solve-r" class="btn btn--xsmall btn--reddit" title="Follow me"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> reddit</span></a>
@@ -26,7 +26,7 @@ feature_row:
     title: "See my portfolio"
     excerpt: "Curated list of projects I am proud of, and certifications I have done or the interests I have at the moment."
     btn_label: "Learn More"
-    url: "https://linkedin.com/in/k-pulkit"
+    url: "https://github.com/k-pulkit"
   - image_path: /assets/images/mm-home-page-feature-3.jpeg
     alt: "Hire me"
     title: "Hire me!"
@@ -35,30 +35,8 @@ feature_row:
     btn_label: "Learn More"
 github:
   - excerpt: '{::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=k-pulkit&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20" title="GitHub"></iframe>{:/nomarkdown}'
-gallery:
-  - url: /learn/terraform
-    image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
-    alt: "placeholder image 1"
-    title: "Learning Terraform for AWS"
-    description: "In the set of quick reads, we will explore how to use the terraform for infrastructure deployment on AWS. <br/><br/>#labs #aws #learnwithme"
-  - url: /learn/serverless
-    image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
-    alt: "placeholder image 1"
-    title: "Learning Serverless Framework for AWS"
-    description: "Terraform is great, but it comes to serverless deployments use something designed for it. Let's explore the serverless framework. <br/><br/>#labs #aws #learnwithme"
-  - url: /learn
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "Learn page."
-    title: "Explore more."
 ---
 
 {% include feature_row id="intro" type="center" %}
-
-# Explore
-
-You get to choose. <br />Learn with me in my `learning collections`. Or, read my `blogs` where I post about things I come across, random snippets of knowledge.
-{: .notice--info}
-
-{% include gallery caption="---" %}
 {% include feature_row caption="---" %}
-<!-- {% include feature_row id="github" type="center" %} -->
+{% include feature_row id="github" type="center" %}

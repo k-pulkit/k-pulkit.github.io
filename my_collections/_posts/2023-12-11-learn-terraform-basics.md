@@ -1,8 +1,8 @@
 ---
-title: "Quick-Start Guide"
-permalink: /learn/serverless/basics/
-excerpt: "Learn basics about terraform for IAC"
-last_modified_at: 2024-01-09
+title: "Basics of IaC with terraform"
+last_modified_at: 2023-12-11
+categories:
+    - IaC (Infrastructure as code)
 tags:
     - learning
     - iac
@@ -10,6 +10,7 @@ tags:
     - aws
     - basics
 toc: true
+excerpt: "Learn basics about terraform for IAC"
 ---
 
 ## Introduction 
