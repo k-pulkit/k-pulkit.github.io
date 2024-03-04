@@ -4,11 +4,12 @@ last_modified_at: 2023-12-13
 categories:
     - Infra as code
 tags:
-    - learning
     - iac
     - terraform
+    - state
     - aws
-    - basics
+header: 
+  teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
 excerpt: "Understand the meaning of state in terraform projects"
 ---

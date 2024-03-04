@@ -3,10 +3,11 @@ title: "What is serverless framework"
 last_modified_at: 2024-01-09
 categories:
     - Infra as code
+header: 
+  teaser: /assets/images/collections/pages/2024-01-22-The-serverless-framework.png
 tags:
     - iac
     - serverless
-    - notterraform
     - aws
 toc: true
 excerpt: "Terraform is great and serverless is sometimes better."

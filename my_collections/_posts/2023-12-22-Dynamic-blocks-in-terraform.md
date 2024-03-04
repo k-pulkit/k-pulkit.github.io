@@ -3,10 +3,12 @@ title: "Terraform dynamic blocks"
 last_modified_at: 2023-12-22
 categories:
     - Infra as code
+header: 
+  teaser: /assets/images/collections/pages/terraform-articles.jpg
 tags:
-    - learning
     - iac
     - terraform
+    - tricks
     - aws
     - basics
 toc: true

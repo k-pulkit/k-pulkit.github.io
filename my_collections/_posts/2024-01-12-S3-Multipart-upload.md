@@ -2,11 +2,13 @@
 title: "AWS S3 Multi-Part Uploads"
 categories:
     - aws
+header: 
+  teaser: /assets/images/collections/pages/2024-01-12-S3-Multipart-upload.png
 tags:
-    - storage
-    - upload
-    - cloud
     - awss3
+    - upload
+    - aws
+    - storage
     - dataengineering
 excerpt: In this short lab, I will show you how to upload file to S3 when you have a very large file.
 ---

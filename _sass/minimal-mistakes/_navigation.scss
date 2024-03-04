@@ -60,9 +60,12 @@
      .pagination {
       @include clearfix();
       float: left;
-      margin-top: 1em;
-      padding-top: 1em;
+      margin-top: 0em !important;
+      padding-top: 30px !important;
       width: 100%;
+      padding-bottom: 30px;
+      border-bottom: 1px solid $border-color !important;
+
     
       ul {
         margin: 0;

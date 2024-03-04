@@ -65,7 +65,7 @@ gallery2:
 ---
 
 ## Data Engineering
-{% include gallery id="gallery1" caption="" class="full" %}
+{% include gallery id="gallery1" caption="" %}
 
 ## Programming
-{% include gallery id="gallery2" caption="" class="full"  %}
+{% include gallery id="gallery2" caption="" %}

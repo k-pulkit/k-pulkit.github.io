@@ -1,14 +1,16 @@
 ---
-title: "Make terraform projects easy to maintain"
+title: "Terraform modules"
 last_modified_at: 2023-12-17
 categories:
     - Infra as code
 tags:
-    - learning
     - iac
     - terraform
+    - modules
     - aws
     - basics
+header: 
+  teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
 excerpt: "Learn how to make your terraform project modular and easy to maintain"
 ---

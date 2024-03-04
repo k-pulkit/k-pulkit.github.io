@@ -4,11 +4,13 @@ last_modified_at: 2023-12-11
 categories:
     - Infra as code
 tags:
-    - learning
     - iac
     - terraform
+    - getstarted
     - aws
     - basics
+header: 
+  teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
 excerpt: "Learn basics about terraform for IAC"
 ---
