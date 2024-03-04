@@ -19,7 +19,11 @@
     {% endif %}
     <div class="archive__item-tags">
           {% for tag in post.tags limit:3 %}
+            {% if tag == "project" %}
+                <span class="btn btn--xsmall btn--success">{{ tag }}</span>
+            {% else %}
                 <span class="btn btn--xsmall btn--light-outline">{{ tag }}</span>
+            {% endif %}
           {% endfor %}
     </div>
     <h2 class="archive__item-title no_toc" itemprop="headline">
