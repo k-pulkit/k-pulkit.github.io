@@ -6,14 +6,14 @@ main:
   #   url: /learn
   - title: "Recent Posts"
     url: /blog/
-  - title: "All Posts"
-    url: /year-archive
+  # - title: "All Posts"
+  #   url: /year-archive
   - title: "Categories"
     url: /categories
-  - title: "Tags"
-    url: /tags
-  # - title: "Portfolio"
-  #   url: /portfolio
+  # - title: "Tags"
+  #   url: /tags
+  - title: "Projects"
+    url: /portfolio
   # - title: "Resume"
   #   url: /resume
   # - title: "Connect"

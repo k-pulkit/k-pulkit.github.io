@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.8em 0 0.5em;
+  margin: 0.2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -193,14 +193,17 @@ figure {
   -webkit-box-pack: justify;
   justify-content: space-between;
   -webkit-box-align: start;
-  align-items: flex-start;
+  align-items: flex-center;
+  row-gap: 45px;
+  column-gap: 14px;
   flex-wrap: wrap;
-  margin: 2em 0;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2em 0;
+  margin: 0;
+  margin-top: 2em;
+  margin-bottom: 0;
 
   img,
   iframe,
@@ -209,6 +212,7 @@ figure {
   }
 
   img {
+    margin-bottom: 0.2em !important;
     width: 100%;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
@@ -224,6 +228,7 @@ figure {
     > img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
+        height: 100%;
       }
     }
 
@@ -234,6 +239,7 @@ figure {
     /* Adjust the width of image items based on the layout */
     .image-item {
       width: calc(50% - 0.5em); /* For half layout */
+      height: 100%;
     }
   }
 
@@ -242,18 +248,21 @@ figure {
     > img {
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
+        height: 100%;
       }
     }
 
     /* Adjust the width of image items based on the layout */
     .image-item {
       width: calc(50% - 0.5em); /* For half layout */
+      height: 100%;
     }
 
     /* For third layout */
     @media (min-width: $large) {
       .image-item {
-        width: calc(33.3333% - 0.5em);
+        width: calc(33.3333% - 1.0em);
+        height: 100%;
       }
     }
 
@@ -270,14 +279,15 @@ figure {
 
   .image-title {
     position: absolute;
-    top: -1em;
+    font-family: monospace;
+    top: -37px;
     left: 0;
     width: 100%;
-    background-color: rgba(13, 34, 66, 0.938); /* Adjust background color and opacity */
+    background-color: rgba(11, 79, 182, 0.938); /* Adjust background color and opacity */
     color: white;
-    padding: 5px 10px;
-    font-size: 16px; /* Adjust font size */
-    font-weight: bold; /* Adjust font weight */
+    padding: 8px 10px;
+    font-size: 14px; /* Adjust font size */
+    font-weight: 600; /* Adjust font weight */
     text-align: center;
     z-index: 1; /* Ensure the titles appear above the images */
     display: block; /* Hide titles by default */
@@ -289,21 +299,22 @@ figure {
   }
 
   .image-description {
+    font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    bottom: 10%;
+    bottom: -4px;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 43%;
     border-radius: $border-radius;
-    background-color: rgba(200, 200, 200, 0.90); /* Adjust background color and opacity */
-    color: black;
-    padding: 15px 10px;
+    background-color: rgba(45, 112, 236, 0.94); /* Adjust background color and opacity */
+    color: white;
+    padding: 10px 10px;
     font-size: 13px !important; /* Adjust font size */
-    font-weight: bold; /* Adjust font weight */
-    text-align: center;
+    font-weight: 500; /* Adjust font weight */
+    text-align: justify;
     z-index: 1; /* Ensure the titles appear above the images */
     opacity: 0; /* Hide descriptions by default */
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
     word-wrap: break-word;
   }
 

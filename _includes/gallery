@@ -20,12 +20,19 @@
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     <div class="image-item">
-      <div class="image-container">
-        <a href="{{ img.url | relative_url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
+      <div class="wrapper-image-container">
+        <div class="image-container">
+          <a href="{{ img.url | relative_url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
           <h3 class="image-title">{% if img.title %}{{ img.title }}{% endif %}</h3>
           {% if img.description %}<p class="image-description">{{ img.description }}</p>{% endif %}
           <img src="{{ img.image_path | relative_url }}" alt="{% if img.alt %}{{ img.alt }}{% endif %}">
         </a>
+        </div>
+        <div class="image-tags">
+          {% for tag in img.tags %}
+            <span class="btn btn--xsmall btn--linkedin">{{ tag }}</span>
+          {% endfor %}
+        </div>
       </div>
     </div>
   {% endfor %}
