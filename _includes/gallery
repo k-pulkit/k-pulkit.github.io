@@ -30,7 +30,7 @@
         </div>
         <div class="image-tags">
           {% for tag in img.tags %}
-            <span class="btn btn--xsmall btn--light-outline">{{ tag }}</span>
+            <span class="btn btn--xsmall btn--inverse">{{ tag }}</span>
           {% endfor %}
         </div>
       </div>
