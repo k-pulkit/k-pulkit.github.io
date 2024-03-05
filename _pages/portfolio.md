@@ -95,7 +95,7 @@ gallery2:
 
 
 
-Below is a curated collection of my most noteworthy projects. I have spent good enough time to document so it is easy to understand. If you wish to get in touch, here is my <a href="https://linkedin.com/in/k-pulkit" class="btn btn--small btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> linkedin</span></a> Feel free to contact!
+Below is a curated collection of my most noteworthy projects. I have spent good enough time to document so it is easy to understand. If you wish to get in touch, here is my <a style="color: white" href="https://linkedin.com/in/k-pulkit" class="btn btn--small btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> linkedin</span></a> Feel free to contact!
 {: .notice--success}
 
 ## Data Engineering
