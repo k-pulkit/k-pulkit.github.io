@@ -10,7 +10,7 @@ tags:
     - development
     - modern
 header: 
-  teaser: /assets/images/collections/pages/terraform-articles.jpg
+  teaser: /assets/images/collections/pages/email-reminders-article-resized.png
 toc: true
 excerpt: "Learn most important concepts to get started with react"
 ---
