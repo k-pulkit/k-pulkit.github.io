@@ -36,4 +36,9 @@ github:
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row caption="---" %}
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 0;">
+    <img style="" src="https://ghchart.rshah.org/k-pulkit" alt="2016rshah's Github chart" />
+</div>
+
 {% include feature_row id="github" type="center" %}

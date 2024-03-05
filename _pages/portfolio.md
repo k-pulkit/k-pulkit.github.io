@@ -87,8 +87,11 @@ gallery2:
         - Spark
         - GCP
 ---
+<div style="display: flex; flex-wrap: wrap; justify-content: start; align-items: end; margin: 0; column-gap:1em;">
+    <img style="" src="https://ghchart.rshah.org/k-pulkit" alt="2016rshah's Github chart" />
+    <a style="flex-grow: 1; margin-top:10px" href="https://github.com/k-pulkit" class="btn btn--small btn--linkedin">Checkout my GitHub!</a>
+</div>
 
-[Checkout my github!](https://github.com/k-pulkit){: .btn .btn--linkedin}
 
 
 
