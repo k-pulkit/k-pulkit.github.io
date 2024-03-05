@@ -8,7 +8,7 @@ collection: portfolio
 classes: wide
 gallery1:
   - url: https://github.com/k-pulkit/EmailReminders-React_Aws_IaC
-    image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
+    image_path: assets/images/collections/portfolio/email-reminders-article-600x400.png
     alt: "Email Reminders"
     title: "Email Reminders"
     description: "Built with a modern tech stack, leveraging various AWS services for backend functionalities, and React for the frontend"
@@ -22,7 +22,7 @@ gallery1:
         - Serverless
         - Cloudformation
   - url: https://github.com/k-pulkit/aws-terraform-lambda-sqsToDynamo
-    image_path: /assets/images/lab1-terraform-lambda_600x400.jpg
+    image_path: /assets/images/collections/portfolio/aws-terraform-lambda-600x400.jpg
     alt: "SQS Terraform Pipeline"
     title: "SQS Terraform Pipeline"
     description: "Simple data pipeline to ingest data from SQS to DynamoDb via Lambda and deployed using Terraform for IaC"
@@ -33,7 +33,7 @@ gallery1:
         - DynamoDb
         - Lambda
   - url: https://github.com/k-pulkit/AwsStreamingDataPipeline
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    image_path: /assets/images/collections/portfolio/aws-twitter-capstone-project-600x400.jpg
     alt: "Twitter Steaming Pipeline"
     title: "Twitter Steaming Pipeline"
     description: "ETL pipeline to ingest live twitter data, process it using serverless Spark on Glue, and show sentiment analysis of Tweets to user"
@@ -44,28 +44,59 @@ gallery1:
         - Spark
         - DynamoDb
         - Lambda
+  # - url: https://github.com/k-pulkit/AwsStreamingDataPipeline
+  #   image_path: /assets/images/collections/portfolio/aws-twitter-capstone-project-600x400.jpg
+  #   alt: "Twitter Steaming Pipeline"
+  #   title: "Twitter Steaming Pipeline"
+  #   description: "ETL pipeline to ingest live twitter data, process it using serverless Spark on Glue, and show sentiment analysis of Tweets to user"
+  #   tags:
+  #       - AWS
+  #       - Kinesis Firehose
+  #       - Glue
+  #       - Spark
+  #       - DynamoDb
+  #       - Lambda
 gallery2:
   - url: https://github.com/k-pulkit/AwsStreamingDataPipeline
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    image_path: /assets/images/collections/portfolio/scala-certificate-600x400.jpg
     alt: "Scala Programming Coursera"
-    title: "Scala Programming Coursera"
-    description: "One of the most challenging courses I have done. I learnt the functional programming paradigm in Scala, which also helped me later pick Javascript and React"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "Project - 1"
-    title: "Project - 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "Project - 1"
-    title: "Project - 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "Project - 1"
-    title: "Project - 1"
+    title: "Functional Programming Scala"
+    tags:
+        - Scala
+        - Functional
+        - Coursera
+        - Programming
+  - url: https://verify.acloud.guru/AFC6C3B27A20
+    image_path: /assets/images/collections/portfolio/terraform-associate-600x400.jpg
+    alt: "Certified Terraform Associate"
+    title: "Certified Terraform Associate"
+    tags:
+        - Terraform
+        - Iac
+        - Cloudguru
+        - AWS
+        - Platform
+  - url: https://www.udemy.com/certificate/UC-95671abc-7fd1-4dd5-8690-475fb653bad1/
+    image_path: /assets/images/collections/portfolio/udemy-hadoop-certificate-600x400.jpg
+    alt: "Setup Hadoop on CDH (GCP)"
+    title: "Setup Hadoop on CDH (GCP)"
+    tags:
+        - Cloudera
+        - Hadoop
+        - Administration
+        - Spark
+        - GCP
 ---
+
+[Checkout my github!](https://github.com/k-pulkit){: .btn .btn--linkedin}
+
+
+
+Below is a curated collection of my most noteworthy projects. I have spent good enough time to document so it is easy to understand. If you wish to get in touch, here is my <a href="https://linkedin.com/in/k-pulkit" class="btn btn--small btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> linkedin</span></a> Feel free to contact!
+{: .notice--success}
 
 ## Data Engineering
 {% include gallery id="gallery1" caption="" %}
 
-## Programming
+## Notable Certificates
 {% include gallery id="gallery2" caption="" %}

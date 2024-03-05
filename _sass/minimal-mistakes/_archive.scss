@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  margin-top: 0.5em;
 
   a {
     position: relative;
@@ -44,17 +45,21 @@
 }
 
 .archive__item-tags {
-        margin-top: 0.5em;
+        margin-top: 0.4em;
       }
 
 .archive__item-title {
   font-size: $type-size-6 !important;
   margin-top: 0.5em !important;
   margin-bottom: 0em;
-  font-family: Novecento Wide;
+  font-family: $header-font-family;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  a {
+    text-decoration: none !important;
+  }
 
   a[rel="permalink"]::before {
     content: '';
@@ -400,6 +405,7 @@
     }
 
     .archive__item-teaser {
+      border-radius: $border-radius;
       margin-bottom: 2em;
     }
 

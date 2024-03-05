@@ -27,14 +27,15 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 1.5em 0 0.5em !important;
+  margin: 1.3em 0 0.5em !important;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0.3em !important;
+  margin-bottom: 1em !important;
   font-size: $h-size-2;
 }
 
@@ -43,6 +44,7 @@ h2 {
 }
 
 h3 {
+  margin: 0.2em 0 0.5em !important;
   font-size: $h-size-4;
 }
 
@@ -194,15 +196,13 @@ figure {
   justify-content: space-between;
   -webkit-box-align: start;
   align-items: flex-center;
-  row-gap: 45px;
-  column-gap: 14px;
   flex-wrap: wrap;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0;
 
   img,
@@ -212,7 +212,7 @@ figure {
   }
 
   img {
-    margin-bottom: 0.2em !important;
+    margin-bottom: 0.8em !important;
     width: 100%;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
@@ -254,8 +254,18 @@ figure {
 
     /* Adjust the width of image items based on the layout */
     .image-item {
+      margin-top: 1.9em;
       width: calc(50% - 0.5em); /* For half layout */
       height: 100%;
+
+      &:nth-child(1) {
+        margin-top: 0em;
+      }
+
+      &:nth-child(2) {
+        margin-top: 0em;
+      }
+
     }
 
     /* For third layout */
@@ -263,6 +273,35 @@ figure {
       .image-item {
         width: calc(33.3333% - 1.0em);
         height: 100%;
+
+        &:nth-child(1) {
+        margin-top: 0em;
+        }
+
+        &:nth-child(2) {
+          margin-top: 0em;
+        }
+
+        &:nth-child(3) {
+          margin-top: 0em;
+        }
+      }
+    }
+
+    @media (max-width: $small) {
+      .image-item {
+        width: calc(100% - 1.0em);
+        height: 100%;
+        margin-top: 1.9em;
+
+        &:nth-child(1) {
+        margin-top: 0em;
+       }
+
+       &:nth-child(n+2) {
+        margin-top: 1.9em;
+       }
+
       }
     }
 
@@ -275,11 +314,25 @@ figure {
   .image-container {
     position: relative;
     width: 100%;
+
+    a {
+
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      img {
+        border-radius: $border-radius;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
 
   .image-title {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0.2em !important;
+    margin-top: -0.8em !important;
     left: 0;
     width: 100%;
     background-color: rgba(11, 79, 182, 0.938); /* Adjust background color and opacity */
@@ -300,10 +353,10 @@ figure {
   .image-description {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    bottom: -6px;
+    bottom: 0.6em;
     left: 0;
     width: 100%;
-    height: 43%;
+    height: 48%;
     border-radius: $border-radius;
     background-color: rgba(45, 112, 236, 0.94); /* Adjust background color and opacity */
     color: white;

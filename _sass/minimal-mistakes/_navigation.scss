@@ -572,8 +572,9 @@
 
 .nav__title {
   margin: 0;
+  margin-top: 0 !important;
   padding: 0.5rem 0.75rem;
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family;;
   font-size: $type-size-6;
   font-weight: bold;
 }
@@ -594,7 +595,7 @@
      ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;;
   color: $gray;
   background-color: $background-color;
   border: 1px solid $border-color;
