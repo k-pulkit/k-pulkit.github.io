@@ -23,11 +23,13 @@
       <div class="wrapper-image-container">
         <div class="image-container">
           <a href="{{ img.url | relative_url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
-          <h3 class="image-title">{% if img.title %}{{ img.title }}{% endif %}</h3>
           {% if img.description %}<p class="image-description">{{ img.description }}</p>{% endif %}
           <img src="{{ img.image_path | relative_url }}" alt="{% if img.alt %}{{ img.alt }}{% endif %}">
         </a>
         </div>
+        <a style="text-decoration:none"  href="{{ img.url | relative_url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
+          <h3 class="image-title">{% if img.title %}{{ img.title }}{% endif %}</h3>
+        </a>
         <div class="image-tags">
           {% for tag in img.tags %}
             <span class="btn btn--xsmall btn--inverse">{{ tag }}</span>
