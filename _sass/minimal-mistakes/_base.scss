@@ -205,14 +205,26 @@ figure {
   margin-top: 1em;
   margin-bottom: 0;
 
-  img,
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 2em;
   }
 
   img {
-    margin-bottom: 0.8em !important;
+    margin-bottom: 1em;
+  }
+
+  .image-wrapper {
+    margin-bottom: 1.2em !important;
+    border-radius: $border-radius;
+    border: 1px solid black;
+
+    img {
+      margin-bottom: 0em !important;
+    }
+  }
+
+  img {
     width: 100%;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
@@ -353,7 +365,7 @@ figure {
   .image-description {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    bottom: 0.6em;
+    bottom: -10px;
     left: 0;
     width: 100%;
     height: 48%;

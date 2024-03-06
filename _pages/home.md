@@ -38,7 +38,7 @@ github:
 {% include feature_row caption="---" %}
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 0;">
-    <img style="" src="https://ghchart.rshah.org/k-pulkit" alt="2016rshah's Github chart" />
+    <img style="max-width: 1000px; padding: 10px; border: 0.4px solid green; border-radius:2px; margin-bottom:3px; flex-grow: 1;" src="https://ghchart.rshah.org/k-pulkit" alt="2016rshah's Github chart" />
 </div>
 
 {% include feature_row id="github" type="center" %}

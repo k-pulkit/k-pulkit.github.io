@@ -10,6 +10,8 @@ tags:
     - development
     - modern
 header: 
+  image: https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/386d3778-eedc-4a33-b50f-ed5a44b63b62
+  caption: "Screenshot of application frontend"
   teaser: /assets/images/collections/pages/email-reminders-article-resized.png
 toc: true
 excerpt: "Learn most important concepts to get started with react"
@@ -20,11 +22,13 @@ excerpt: "Learn most important concepts to get started with react"
 Every big project is done one step at a time. Slowly and steadily you can dig at new concepts, learn and so can build any complex application
 {: .notice--warning}
 
-<figure class="">
+<!-- <figure class="">
     <a href="https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/386d3778-eedc-4a33-b50f-ed5a44b63b62"><img src="https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/386d3778-eedc-4a33-b50f-ed5a44b63b62"></a>
-</figure>
+</figure> -->
 
 ## Objective
+
+<!-- ![image-center](https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/386d3778-eedc-4a33-b50f-ed5a44b63b62){: .align-center} -->
 
 In this blog post, we'll explore the development of a Reminder App using a modern tech stack, including various AWS services for the backend and React for the frontend. This application provides a seamless authentication flow and a robust reminder management system.
 

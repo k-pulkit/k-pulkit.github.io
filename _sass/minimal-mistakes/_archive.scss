@@ -99,6 +99,7 @@
 .archive__item-teaser {
   position: relative;
   border-radius: $border-radius;
+  border: 1px solid black;
   overflow: hidden;
 
   img {
