@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-  margin: 0.2em 0 0.5em !important;
+  margin: 0.6em 0 0.5em !important;
   font-size: $h-size-4;
 }
 
@@ -109,7 +109,7 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
+  margin: 1em 1em 1em 0;
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
@@ -393,10 +393,14 @@ figure {
 /* Figure captions */
 
 figcaption {
-  margin-bottom: 0.5em;
+  margin-top: -0.8em;
+  margin-bottom: 1.3em;
   color: $muted-text-color;
   font-family: $caption-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-8;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-align: center;
 
   a {
     -webkit-transition: $global-transition;

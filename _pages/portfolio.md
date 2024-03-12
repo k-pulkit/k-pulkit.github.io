@@ -36,7 +36,7 @@ gallery1:
     image_path: /assets/images/collections/portfolio/aws-twitter-capstone-project-600x400.jpg
     alt: "Twitter Steaming Pipeline"
     title: "Twitter Steaming Pipeline"
-    description: "ETL pipeline to ingest live twitter data, process it using serverless Spark on Glue, and show sentiment analysis of Tweets to user"
+    description: "ETL pipeline to ingest live twitter data, process it using serverless Spark on Glue, and show sentiment analysis of Tweets"
     tags:
         - AWS
         - Kinesis Firehose

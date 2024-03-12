@@ -1,7 +1,7 @@
 ---
 title: "Spark Hive JDBC Issues"
 categories:
-    - spark
+    - dataengineering
 tags:
     - debugging
     - spark

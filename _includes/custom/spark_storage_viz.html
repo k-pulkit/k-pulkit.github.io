@@ -1,0 +1,185 @@
+{% raw %}
+<html lang="en">
+<head>
+    <title>Spark Memory Management Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <style>
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            max-width: 670px;
+            width: 100%;
+            margin: 0 auto;
+            border-radius:20px;
+            margin-top:1.3em;
+            margin-bottom:1.3em;
+        }
+        
+        canvas {
+            margin-top: -10px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label {
+            padding-right: 5px;
+            font-weight: semibold;
+            font-size: 0.8em;
+            display: inline-block;
+            width: 45%;
+            margin-right: 10px;
+        }
+
+        input[type="number"] {
+            font-size: 0.8em;
+            padding: 5px;
+            background-color: white;
+            border: 0.2px solid gray;
+        }
+
+        input[type="range"],
+        input[type="number"] {
+            flex: 1;
+            margin: 10px 0;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .range-value {
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+
+        span {
+            margin-right: 10px;
+            margin-left: 0px !important;
+        }
+    </style>
+</head>
+<body class="viz-body">
+    <div class="container">
+        <h1>Spark Memory Management Visualization</h1>
+
+        <canvas id="chart" height=140></canvas>
+        
+        <div class="form-group">
+            <label for="heapMemory">spark.executor.memory</label>
+            <input type="number" id="heapMemory" value="1024">
+        </div>
+
+        <div class="form-group">
+            <label for="sparkMemoryFraction">spark.memory.executor.fraction</label>
+            <span class="range-value" id="sparkMemoryFractionValue">0.75</span>
+            <input type="range" id="sparkMemoryFraction" min="0" max="1" step="0.01" value="0.75">
+        </div>
+        
+        <div class="form-group">
+            <label for="sparkStorageFraction">spark.executor.storage.fraction</label>
+            <span class="range-value" id="sparkStorageFractionValue">0.5</span>
+            <input type="range" id="sparkStorageFraction" min="0" max="1" step="0.01" value="0.5">
+        </div>
+
+        
+    </div>
+
+    <script>
+        const ctx = document.getElementById('chart').getContext('2d');
+
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Java Heap Memory'],
+                datasets: [
+                    {
+                        label: 'Reserved Memory',
+                        backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                        data: [300],
+                    },
+                    {
+                        label: 'User Memory',
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        data: [0],
+                    },
+                    {
+                        label: 'Spark Storage Memory',
+                        backgroundColor: 'rgba(255, 206, 86, 0.6)',
+                        data: [0],
+                    },
+                    {
+                        label: 'Spark Execution Memory',
+                        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                        data: [0],
+                    },
+                ],
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: { display: false, stacked: true },
+                    y: { display: false, stacked: true },
+                },
+                plugins: {
+                    legend: { display: false },
+                    datalabels: {
+                        anchor: 'center',
+                        align: 'center',
+                        color: 'black',
+                        font: { weight: 'semibold' },
+                        formatter: function (value, context) {
+                            return context.dataset.label + ' (' + Math.round(value) + 'MB' + ')';
+                        },
+                    },
+                },
+            },
+            plugins: [ChartDataLabels],
+        });
+
+        function updateChart() {
+            const sparkMemoryFraction = parseFloat(document.getElementById('sparkMemoryFraction').value);
+            const heapMemory = parseInt(document.getElementById('heapMemory').value);
+            const sparkStorageFraction = parseFloat(document.getElementById('sparkStorageFraction').value);
+
+            // Ensure spark.executor.memory is at least 300MB
+            if (isNaN(heapMemory) || heapMemory < 300) {
+                heapMemoryInput.value = 300;
+                heapMemory = 300;
+                alert("Executor memory cannot be less than reserved memory!")
+            }
+
+            const sparkMemory = heapMemory - 300;
+            const userMemory = sparkMemory * (1.0 - sparkMemoryFraction);
+            const unifiedMemory = sparkMemory - userMemory;
+            const storageMemory = unifiedMemory * sparkStorageFraction;
+            const execMemory = unifiedMemory - storageMemory;
+
+            chart.data.datasets[1].data = [userMemory];
+            chart.data.datasets[2].data = [storageMemory];
+            chart.data.datasets[3].data = [execMemory];
+
+            chart.update();
+
+            document.getElementById('sparkMemoryFractionValue').textContent = sparkMemoryFraction;
+            document.getElementById('sparkStorageFractionValue').textContent = sparkStorageFraction;
+        }
+
+        document.getElementById('sparkMemoryFraction').addEventListener('input', updateChart);
+        document.getElementById('heapMemory').addEventListener('input', updateChart);
+        document.getElementById('sparkStorageFraction').addEventListener('input', updateChart);
+
+        updateChart();
+    </script>
+</body>
+</html>
+{% endraw %}

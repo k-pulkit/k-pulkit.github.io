@@ -586,9 +586,11 @@ body {
 
 .page__related-title {
   // display: none;
-  margin-bottom: 1em;
+  margin-bottom: 1.4em;
   font-size: $type-size-6;
-  text-decoration: underline;
+  font-size: $type-size-3 !important;
+  letter-spacing: 0.65px;
+  // text-decoration: underline;
 }
 
 
