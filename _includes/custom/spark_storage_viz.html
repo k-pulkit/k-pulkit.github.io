@@ -1,6 +1,9 @@
 {% raw %}
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spark Memory Management Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
@@ -20,7 +23,7 @@
         }
         
         canvas {
-            margin-top: -10px;
+            margin-top: 30px;
             margin-bottom: 25px;
         }
 
@@ -80,7 +83,7 @@
         </div>
 
         <div class="form-group">
-            <label for="sparkMemoryFraction">spark.memory.executor.fraction</label>
+            <label for="sparkMemoryFraction">spark.executor.memory.fraction</label>
             <span class="range-value" id="sparkMemoryFractionValue">0.75</span>
             <input type="range" id="sparkMemoryFraction" min="0" max="1" step="0.01" value="0.75">
         </div>
@@ -128,7 +131,9 @@
                 responsive: true,
                 scales: {
                     x: { display: false, stacked: true },
-                    y: { display: false, stacked: true },
+                    y: { display: false, stacked: true, max: 1024, beforeFit: function(axis) {
+                            axis.max = parseInt(document.getElementById('heapMemory').value)
+                    } },
                 },
                 plugins: {
                     legend: { display: false },
@@ -141,6 +146,32 @@
                             return context.dataset.label + ' (' + Math.round(value) + 'MB' + ')';
                         },
                     },
+                    tooltip: {
+                        footerMarginTop:10,
+                        callbacks: {
+                            label: function (context) {
+                                var label = '';
+                                var per = 0;
+                                label += Math.round(context.parsed.y) + ' MB';
+                                per = Math.round(100 * context.parsed.y / parseInt(document.getElementById('heapMemory').value))
+                                return `${label} (${per}%)`;
+                            },
+                            title: function (contexts) {
+                                return contexts[0].dataset.label || '';
+                            },
+                            footer: function (contexts) {
+                                var title = contexts[0].dataset.label || '';
+                                var definitions = {
+                                    'Reserved Memory': 'The memory reserved for non-Spark usage.',
+                                    'User Memory': 'The memory available for caching and propagating internal data via shuffle operations.',
+                                    'Spark Storage Memory': 'The memory used for caching RDDs, broadcast variables, and output data.',
+                                    'Spark Execution Memory': 'The memory used for computation in shuffles, joins, sorts, and aggregations.'
+                                };
+
+                                return "" + ':: ' + definitions[title];
+                            }
+                        }
+                    }
                 },
             },
             plugins: [ChartDataLabels],
@@ -182,4 +213,5 @@
     </script>
 </body>
 </html>
+
 {% endraw %}
