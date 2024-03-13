@@ -4,7 +4,7 @@ last_modified_at: 2024-01-09
 categories:
     - Infra as code
 header: 
-  teaser: /assets/images/collections/pages/2024-01-22-The-serverless-framework.png
+  teaser: /assets/images/collections/posts/2024-01-22-The-serverless-framework/thumb.png
 tags:
     - iac
     - serverless
@@ -79,7 +79,7 @@ functions:
 
 Let's quicky run the command `sls-deploy` and wait for the deployment to finish. 
 
-![image-right](/assets/images/collections/serverless/sls-depl-1.png){: .align-center}
+![image-right](/assets/images/collections/posts/2024-01-22-The-serverless-framework/sls-depl-1.png){: .align-center}
 
 As you can see in the figure above, we were able to create the function as required. To remove this stack you can run `sls remove`
 

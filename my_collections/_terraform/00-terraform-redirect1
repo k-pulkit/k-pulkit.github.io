@@ -1,7 +1,0 @@
----
-title: "Quick-Start Guide"
-layout: redirect
-permalink: /learn/terraform/
-redirect_url: "/learn/terraform/basics"
-toc: false
----

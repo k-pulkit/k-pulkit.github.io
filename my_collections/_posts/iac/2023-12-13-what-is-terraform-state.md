@@ -9,7 +9,7 @@ tags:
     - state
     - aws
 header: 
-  teaser: /assets/images/collections/pages/terraform-articles.jpg
+  teaser: /assets/images/collections/common/terraform-articles.jpg
 toc: true
 excerpt: "What is terraform state and what is its role in IaC development."
 ---

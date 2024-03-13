@@ -12,7 +12,7 @@ tags:
 header: 
   image: https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/386d3778-eedc-4a33-b50f-ed5a44b63b62
   caption: "Screenshot of application frontend"
-  teaser: /assets/images/collections/pages/email-reminders-article-resized.png
+  teaser: /assets/images/collections/posts/2024-03-04-Reminder-App-Aws-React/thumb.png
 toc: true
 excerpt: "AWS Reminder application built using React and AWS services like Lambda, cognito etc."
 ---

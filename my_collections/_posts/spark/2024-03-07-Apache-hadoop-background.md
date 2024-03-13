@@ -8,7 +8,7 @@ tags:
     - history
     - dataengineering
 header: 
-  teaser: /assets/images/collections/pages/spark-articles.png
+  teaser: /assets/images/collections/common/spark-articles.png
 excerpt: Understand the background and basics of Hadoop environment.
 ---
 
@@ -23,9 +23,8 @@ Data is at the core of every application, driving decision-making and improving 
 * Spark
 
 Each evolution aimed to solve a specific outcoming of previous generation of solutions.
-
 ## The Big Data Problem
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/collections/pages/spark-articles-big-data-problems.png){: .align-left}
+![image-right](/assets/images/collections/posts/2024-03-07-Apache-hadoop-background/spark-articles-big-data-problems.png){: .align-left}
 With the advent of the internet and mobile devices, the volume and variety of data exploded. Data came in various formats, including json, xml, doc, mp4, avro, among others. This increase in data volume and velocity posed a significant challenge for traditional data processing systems, such as relational database management systems (RDBMS).
 
 These together, <mark>three Vs</mark>, contitute what we call the big data problem. 
@@ -46,7 +45,7 @@ Hadoop like sytem have the following features -
 
 ## Basic background: Hadoop
 In simplicity, hadoop consists of 3 main layers: <br />
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/collections/pages/spark-articles-hadoop-1.png){: .align-right}
+![image-right](/assets/images/collections/posts/2024-03-07-Apache-hadoop-background/spark-articles-hadoop-1.png){: .align-right}
 1. YARN - Cluster operating system, responsible for managing resources of the cluster. 
 2. HDFS - Forms the storage layer. Data stored is split, replicated and distributed across cluster making it reliable and fault tolerant.
 3. Map / Reduce - Allows users to write Java programs to process the data stored on hadoop.
@@ -75,7 +74,7 @@ The below diagram shows the basic architecture of HDFS. In this diagram we can s
 
 <figure style="max-width: 590px" class="align-center">
   <div class="image-wrapper">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/collections/pages/spark-article-hdfs-arch.png" alt="">
+    <img src="/assets/images/collections/posts/2024-03-07-Apache-hadoop-background/spark-article-hdfs-arch.png" alt="">
   </div>
   <figcaption>HDFS architecture</figcaption>
 </figure> 

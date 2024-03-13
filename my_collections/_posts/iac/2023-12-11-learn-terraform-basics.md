@@ -10,7 +10,7 @@ tags:
     - aws
     - basics
 header: 
-  teaser: /assets/images/collections/pages/terraform-articles.jpg
+  teaser: /assets/images/collections/common/terraform-articles.jpg
 toc: true
 excerpt: "What is terraform and how it is used for deploying infrastrucutre at scale"
 ---

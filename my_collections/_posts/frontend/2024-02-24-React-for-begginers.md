@@ -9,7 +9,7 @@ tags:
     - ui
     - modern
 header: 
-  teaser: /assets/images/collections/pages/terraform-articles.jpg
+  teaser: /assets/images/collections/posts/2024-03-04-Reminder-App-Aws-React/thumb.png
 toc: true
 excerpt: "Most important concepts to get started with react covered in this post."
 ---

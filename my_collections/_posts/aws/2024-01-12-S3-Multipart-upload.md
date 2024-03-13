@@ -3,7 +3,7 @@ title: "AWS S3 Multi-Part Uploads"
 categories:
     - aws
 header: 
-  teaser: /assets/images/collections/pages/2024-01-12-S3-Multipart-upload.png
+  teaser: /assets/images/collections/posts/2024-01-12-S3-Multipart-upload/thumb.png
 tags:
     - awss3
     - upload

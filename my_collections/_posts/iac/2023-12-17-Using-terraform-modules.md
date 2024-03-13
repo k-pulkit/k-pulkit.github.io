@@ -10,7 +10,7 @@ tags:
     - aws
     - basics
 header: 
-  teaser: /assets/images/collections/pages/terraform-articles.jpg
+  teaser: /assets/images/collections/common/terraform-articles.jpg
 toc: true
 excerpt: "What are terraform modules and how they help make projects modular"
 ---

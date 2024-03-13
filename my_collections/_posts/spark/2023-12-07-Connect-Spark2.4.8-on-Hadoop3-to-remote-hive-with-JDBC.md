@@ -9,7 +9,7 @@ tags:
     - hivejdbc
     - dataengineering
 header: 
-  teaser: /assets/images/collections/pages/spark-articles.png
+  teaser: /assets/images/collections/common/spark-articles.png
 excerpt: Resolve Hive-1.2 JDBC issues when connecting from Hadoop3 and Spark 2.4.8.
 ---
 

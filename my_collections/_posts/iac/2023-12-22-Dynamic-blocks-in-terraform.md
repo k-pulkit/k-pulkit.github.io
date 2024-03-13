@@ -4,7 +4,7 @@ last_modified_at: 2023-12-22
 categories:
     - Infra as code
 header: 
-  teaser: /assets/images/collections/pages/terraform-articles.jpg
+  teaser: /assets/images/collections/common/terraform-articles.jpg
 tags:
     - iac
     - terraform

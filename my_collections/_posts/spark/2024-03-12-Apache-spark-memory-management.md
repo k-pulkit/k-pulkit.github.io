@@ -8,7 +8,7 @@ tags:
     - unifiedmemory
     - dataengineering
 header: 
-  teaser: /assets/images/collections/pages/spark-articles.png
+  teaser: /assets/images/collections/common/spark-articles.png
 excerpt: Understanding memory management in Apache Spark.
 ---
 
