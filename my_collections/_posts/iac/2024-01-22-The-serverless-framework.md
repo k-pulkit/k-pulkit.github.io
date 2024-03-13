@@ -10,7 +10,7 @@ tags:
     - serverless
     - aws
 toc: true
-excerpt: "Terraform is great and serverless is sometimes better."
+excerpt: "What is serverless framework and how to use it for infra deployment on AWS."
 ---
 
 [Checkout the github repository for this!](https://github.com/k-pulkit/source-demo-serverless-framework/tree/main){: .btn .btn--info}

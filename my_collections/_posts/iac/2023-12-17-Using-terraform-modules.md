@@ -12,7 +12,7 @@ tags:
 header: 
   teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
-excerpt: "Learn how to make your terraform project modular and easy to maintain"
+excerpt: "What are terraform modules and how they help make projects modular"
 ---
 
 ## Modules, what are they

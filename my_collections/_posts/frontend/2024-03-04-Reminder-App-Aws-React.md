@@ -14,7 +14,7 @@ header:
   caption: "Screenshot of application frontend"
   teaser: /assets/images/collections/pages/email-reminders-article-resized.png
 toc: true
-excerpt: "Learn most important concepts to get started with react"
+excerpt: "AWS Reminder application built using React and AWS services like Lambda, cognito etc."
 ---
 
 [Checkout the project repo!](https://github.com/k-pulkit/EmailReminders-React_Aws_IaC){: .btn .btn--info}

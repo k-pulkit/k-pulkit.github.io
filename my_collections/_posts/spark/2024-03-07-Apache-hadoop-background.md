@@ -9,7 +9,7 @@ tags:
     - dataengineering
 header: 
   teaser: /assets/images/collections/pages/spark-articles.png
-excerpt: In this piece of text, we focus on understanding ...
+excerpt: Understand the background and basics of Hadoop environment.
 ---
 
 > Technologies come and go, but data is here to grow!

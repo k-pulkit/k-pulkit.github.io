@@ -10,7 +10,7 @@ tags:
     - aws
     - storage
     - dataengineering
-excerpt: In this short lab, I will show you how to upload file to S3 when you have a very large file.
+excerpt: How to upload large files to S3 using multi-part uploads.
 ---
 
 ## Understanding multi-part uploads

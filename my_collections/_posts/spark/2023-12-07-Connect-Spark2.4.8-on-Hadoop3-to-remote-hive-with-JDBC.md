@@ -10,7 +10,7 @@ tags:
     - dataengineering
 header: 
   teaser: /assets/images/collections/pages/spark-articles.png
-excerpt: If you have ever tried to connect to Hive-1.2 JDBC and faced issues then this post is for you. I am going to mention the issues I faced in my use-case.
+excerpt: Resolve Hive-1.2 JDBC issues when connecting from Hadoop3 and Spark 2.4.8.
 ---
 
 ## Scenario

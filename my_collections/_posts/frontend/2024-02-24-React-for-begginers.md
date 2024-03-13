@@ -11,7 +11,7 @@ tags:
 header: 
   teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
-excerpt: "Learn most important concepts to get started with react"
+excerpt: "Most important concepts to get started with react covered in this post."
 ---
 
 [Checkout my first react project!](https://github.com/k-pulkit/react-store-app-demo){: .btn .btn--info}

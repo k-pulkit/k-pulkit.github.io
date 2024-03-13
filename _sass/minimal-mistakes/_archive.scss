@@ -84,12 +84,16 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
+  margin-top: 0.2em;
+  color: #222831;
+  font-family: $global-font-family;
+  letter-spacing: 1px;
   font-size: $type-size-7 !important;
+  margin-bottom: 0.7em !important;
 
   & + p {
     text-indent: 0;
-  }
+  }  
 
   a {
     position: relative;
@@ -229,7 +233,7 @@
   }
 
   .archive__item-excerpt {
-    display: none !important;
+    // display: none !important;
     
     @include breakpoint($medium) {
       display: block;

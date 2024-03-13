@@ -11,7 +11,7 @@ tags:
 header: 
   teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
-excerpt: "Understand the meaning of state in terraform projects"
+excerpt: "What is terraform state and what is its role in IaC development."
 ---
 
 ## Objective

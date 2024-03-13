@@ -12,7 +12,7 @@ tags:
 header: 
   teaser: /assets/images/collections/pages/terraform-articles.jpg
 toc: true
-excerpt: "Learn basics about terraform for IAC"
+excerpt: "What is terraform and how it is used for deploying infrastrucutre at scale"
 ---
 
 ## Introduction 

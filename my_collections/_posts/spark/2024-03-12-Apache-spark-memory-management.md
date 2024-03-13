@@ -9,11 +9,11 @@ tags:
     - dataengineering
 header: 
   teaser: /assets/images/collections/pages/spark-articles.png
-excerpt: In this piece of text, we focus on understanding ...
+excerpt: Understanding memory management in Apache Spark.
 ---
 
-
 {% include /custom/spark_storage_viz.html %}
+
 
 
 
