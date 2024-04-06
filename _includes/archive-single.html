@@ -22,6 +22,8 @@
           {% for tag in post.tags limit:3 %}
             {% if tag == "project" %}
                 <span class="btn btn--xsmall btn--success">{{ tag }}</span>
+            {% elsif tag == "in-progress" %}
+                <span class="btn btn--xsmall btn--danger">{{ tag }}</span>
             {% else %}
                 <span class="btn btn--xsmall btn--inverse">{{ tag }}</span>
             {% endif %}
