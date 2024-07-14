@@ -1,5 +1,5 @@
 ---
-title: "Exploding Spark Event Logs on AWS EMR"
+title: "Exploding Spark Event Logs"
 last_modified_at: 2024-07-14
 categories:
     - aws
