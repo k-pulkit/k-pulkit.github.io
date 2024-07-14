@@ -44,7 +44,7 @@ To fix this, we needed to create a custom filter to exclude these events during 
 * **Testing in Dev**: We thoroughly tested the filter in our development environment to ensure it worked as expected and didn't break the Spark History UI.
 * **Deploy to Production**: Once confident, we rolled out the filter to our production environment.
 
-## Under the Hood: Implementing the Custom Filter
+## Under the Hood
 
 To make this fix a reality, we created a new implementation for Spark's EventFilterBuilder interface. This interface is how Spark dynamically loads custom filters using its service loader mechanism.
 
@@ -55,12 +55,12 @@ package org.apache.spark.deploy.history
 // ... (other imports)
 
 // Custom Event Filter Builder
-private[spark] class ThisCustomEventFilterBuilder extends EventFilterBuilder with Logging {
-  override def createFilter(): EventFilter = new ThisCustomEventFilter
+private[spark] class CustomEventFilterBuilder extends EventFilterBuilder with Logging {
+  override def createFilter(): EventFilter = new CustomEventFilter
 }
 
 // Custom Event Filter
-private[spark] class ThisCustomEventFilter extends EventFilter with Logging {
+private[spark] class CustomEventFilter extends EventFilter with Logging {
   // Exclude filter
   def acceptFn: PartialFunction[SparkListenerEvent, Boolean] = {
     case e: SparkListenerEvent if List("SparkListenerQueryExecutionMetrics", "SparkListenerEffectiveSQLConf").contains(Utils.getSimpleName(e.getClass)) => false
@@ -69,16 +69,16 @@ private[spark] class ThisCustomEventFilter extends EventFilter with Logging {
 }
 ```
 
-## How it Works:
+## How it Works
 
 ##### Service Loader Magic: 
-The key to this working is a special file we added to our project called META-INF/services/org.apache.spark.deploy.history.EventFilterBuilder. This file contains the fully qualified class name of our CustomEventFilterBuilder. When Spark starts up, it automatically discovers this file and loads our filter builder.
+The key to this working is a special file we added to our project called **META-INF/services/org.apache.spark.deploy.history.EventFilterBuilder**. This file contains the fully qualified class name of our *CustomEventFilterBuilder*. When Spark starts up, it automatically discovers this file and loads our filter builder.
 
 ##### Builder Does Its Thing: 
-When it's time to filter events, Spark calls the createFilter() method on our CustomEventFilterBuilder. This simply returns a new instance of our CustomEventFilter.
+When it's time to filter events, Spark calls the `createFilter()` method on our *CustomEventFilterBuilder*. This simply returns a new instance of our *CustomEventFilter*.
 
 ##### Filter in Action: 
-The CustomEventFilter takes over. Its acceptFn function checks each event's class name. If the class name matches one of the events in our excludedEvents list (in our case, SparkListenerQueryExecutionMetrics and SparkListenerEffectiveSQLConf), the event is rejected during compaction.
+The *CustomEventFilter* takes over. Its `acceptFn` function checks each event's class name. If the class name matches one of the events in our excludedEvents list (in our case, *SparkListenerQueryExecutionMetrics* and *SparkListenerEffectiveSQLConf*), the event is rejected during compaction.
 
 ## Why This Approach is Awesome
 
