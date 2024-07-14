@@ -87,10 +87,10 @@ gallery2:
         - Spark
         - GCP
 ---
-<div style="display: flex; flex-wrap: wrap; justify-content: start; align-items: end; margin: 0; column-gap:1em;">
+<!-- <div style="display: flex; flex-wrap: wrap; justify-content: start; align-items: end; margin: 0; column-gap:1em;">
     <img style="padding: 2px; border: 0.4px solid green; border-radius:2px; margin-bottom:3px" src="https://ghchart.rshah.org/k-pulkit" alt="2016rshah's Github chart" />
     <a style="flex-grow: 1; margin-top:10px" href="https://github.com/k-pulkit" class="btn btn--small btn--linkedin">Checkout my GitHub!</a>
-</div>
+</div> -->
 
 
 
