@@ -91,13 +91,13 @@ This custom filter solved our event log woes, dramatically reducing their size a
 
 ---
 
-#### Optional - Why Service Loaders Are So Cool:
+#### Optional - Why Service Loaders Are So Cool
 
 Imagine you're building a complex software application, and you want to make it flexible and extensible. You want to allow other developers (or even yourself in the future) to add new features or customize behavior without modifying the core codebase.  This is where service loaders come in handy.
 
 In essence, a service loader is a mechanism that allows a Java application to discover and load implementations of specific interfaces at runtime.  Think of it as a way for the main application to say, "Hey, I need something that can do X. Is there anyone out there who can help?"
 
-##### How Service Loaders Work:
+##### How Service Loaders Work
 
 * **Interface**: The core application defines an interface that outlines the contract for a particular functionality. This interface acts like a blueprint for what the extension should do.
 * **Implementations**: Developers create separate components that provide concrete implementations of the interface.
