@@ -4,7 +4,7 @@ categories:
     - aws
     - dataengineering
 header: 
-  teaser: /assets/images/collections/posts/2024-01-12-S3-Multipart-upload/thumb.png
+  teaser: /assets/images/collections/common/spark-articles.png
 tags:
     - aws
     - emr
