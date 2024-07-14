@@ -1,6 +1,6 @@
 ---
 title: "Exploding Spark Event Logs on AWS EMR"
-last_modified_at: 2023-07-14
+last_modified_at: 2024-07-14
 categories:
     - aws
     - dataengineering
