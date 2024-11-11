@@ -16,7 +16,7 @@ feature_row:
     alt: "My Blog"
     title: "Visit my Blog"
     excerpt: "I like to write about data engineering articles, and able solutions to sticky bugs that come in my day job."
-    url: "/blog/"
+    url: https://blog.pulkitkapoor.com
     btn_label: "Learn More"
   - image_path: /assets/images/mm-home-page-feature-2-474x266.jpg
     alt: "My portfolio"

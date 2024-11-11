@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /
-  # - title: "Learn"
-  #   url: /learn
+  - title: "Blog"
+    url: https://blog.pulkitkapoor.com
   - title: "Recent Posts"
     url: /blog/
   # - title: "All Posts"
