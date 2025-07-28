@@ -243,6 +243,7 @@ plugins:
   # Added by GS:
   - jekyll-redirect-from
   - jekyll-admin
+  - jekyll-mentions
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -255,6 +256,7 @@ whitelist:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-admin
+  - jekyll-mentions
 
 
 # Archives

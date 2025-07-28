@@ -10,6 +10,7 @@ tags:
     - aws
     - storage
     - dataengineering
+featured: true
 excerpt: How to upload large files to S3 using multi-part uploads.
 ---
 
