@@ -106,8 +106,8 @@ analytics:
 
 # Google AdSense configuration
 adsense:
-  client                : "ca-pub-0000000000000000" # replace with your AdSense client ID
-  slot                  : "0000000000" # replace with your AdSense slot ID
+  client                : "ca-pub-8680632817843377" # replace with your AdSense client ID
+  slot                  : "2946018458" # replace with your AdSense slot ID
 
 
 # Site Author
