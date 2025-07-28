@@ -45,8 +45,8 @@ Consider a Spark job running on a physical node with 20GB memory. Requesting an 
 
 <figure style="max-width: 450px" class="align-center">
   <div class="image-wrapper">
-    <img src="/assets/images/collections/posts/2024-03-12-Apache-spark-memory-management/Spark Memory.png" alt="">
-    
+    <img src="/assets/images/collections/posts/2024-03-12-Apache-spark-memory-management/Spark Memory.png" alt="Spark executor memory distribution">
+
   </div>
   <figcaption>Executor Memory Distribution</figcaption>
 </figure> 

@@ -74,7 +74,7 @@ The below diagram shows the basic architecture of HDFS. In this diagram we can s
 
 <figure style="max-width: 590px" class="align-center">
   <div class="image-wrapper">
-    <img src="/assets/images/collections/posts/2024-03-07-Apache-hadoop-background/spark-article-hdfs-arch.png" alt="">
+    <img src="/assets/images/collections/posts/2024-03-07-Apache-hadoop-background/spark-article-hdfs-arch.png" alt="HDFS architecture diagram">
   </div>
   <figcaption>HDFS architecture</figcaption>
 </figure> 

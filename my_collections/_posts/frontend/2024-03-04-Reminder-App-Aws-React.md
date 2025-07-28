@@ -37,7 +37,7 @@ In this blog post, we'll explore the development of a Reminder App using a moder
 The application uses serverless architecture. The front is a modern SPA (Single Page Application) written in React, and the backend consists of AWS services like `Cognito, Lambda, API Gateway`.
 
 <figure class="">
-    <a href="https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/4614ccaa-bf9b-4762-9c8e-675540150664"><img src="https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/4614ccaa-bf9b-4762-9c8e-675540150664"></a>
+    <a href="https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/4614ccaa-bf9b-4762-9c8e-675540150664"><img src="https://github.com/k-pulkit/EmailReminders-React_Aws_IaC/assets/71238192/4614ccaa-bf9b-4762-9c8e-675540150664" alt="Reminder app screenshot"></a>
 </figure>
 
 ### Frontend
