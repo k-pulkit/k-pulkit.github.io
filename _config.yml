@@ -103,6 +103,11 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+# Google AdSense configuration
+adsense:
+  client                : "ca-pub-0000000000000000" # replace with your AdSense client ID
+  slot                  : "0000000000" # replace with your AdSense slot ID
+
 
 # Site Author
 author:
