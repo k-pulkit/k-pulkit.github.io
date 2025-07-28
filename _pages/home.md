@@ -9,8 +9,8 @@ header:
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
   cta_url: "/categories/"
   caption:
-excerpt: 'My name is Pulkit, and I am seasoned Data Engineer. Along with my expertise in Spark / Hadoop applications, I am deeply fond of AWS Cloud. I love to learn new tech and broaden my horizons with every single day. <br /><br /> 
-Connect with me on <a href="https://linkedin.com/in/k-pulkit" class="btn btn--xsmall btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> linkedin</span></a><br /><br />'
+excerpt: 'Hello! I''m Pulkit Kapoor, a seasoned data engineer with deep expertise in Spark and Hadoop. I''m passionate about AWS Cloud and constantly explore new technologies. <br /><br />
+Connect with me on <a href="https://linkedin.com/in/k-pulkit" class="btn btn--xsmall btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a><br /><br />'
 feature_row:
   - image_path: /assets/images/mm-home-page-feature-1-474x266.jpg
     alt: "My Blog"
