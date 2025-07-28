@@ -23,8 +23,8 @@ The github repo contains all the code for the deployment of EMR in private clust
 
 <figure style="max-width: 680px" class="align-center">
   <div class="image-wrapper">
-    <img src="/assets/images/collections/posts/2024-04-10-EMR-Private-Cluster-Infra/arch.png" alt="">
-    
+    <img src="/assets/images/collections/posts/2024-04-10-EMR-Private-Cluster-Infra/arch.png" alt="EMR private cluster architecture">
+
   </div>
   <figcaption>Architecture</figcaption>
 </figure> 

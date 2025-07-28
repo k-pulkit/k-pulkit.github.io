@@ -17,16 +17,17 @@ minimal_mistakes_skin2: "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome"
+title                    : "Pulkit Kapoor | Data Engineering & Cloud"
 title_separator          : "-"
 subtitle                 :   # site tagline that appears below site title in masthead
 name                     : "Pulkit Kapoor"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+description              : "Pulkit Kapoor's blog on data engineering, AWS, and cloud technology."
+url                      : "https://www.pulkitkapoor.com"
+baseurl                  : ""
 repository               : "k-pulkit/me" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/88x88.png"
+og_image                 : "/assets/images/bio-photo.jpg"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true #true, false (default)
 words_per_minute         : 200
