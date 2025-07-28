@@ -1,7 +1,9 @@
 ---
 layout: single
 title: Resume
-permalink: /resume/
+permalink: /my-resume/
+redirect_from:
+  - /resume/
 author_profile: true
 classes: wide
 ---
