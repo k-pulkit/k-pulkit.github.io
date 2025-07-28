@@ -7,7 +7,8 @@ tags:
     - memorymodel
     - unifiedmemory
     - dataengineering
-header: 
+featured: true
+header:
   teaser: /assets/images/collections/common/spark-articles.png
 excerpt: How is memory managed by latest releases of Apache Spark.
 ---
