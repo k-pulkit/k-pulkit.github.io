@@ -1,0 +1,35 @@
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 2px solid $border-color;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -0.75rem;
+  top: 0.2rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: $primary-color;
+  border: 2px solid $primary-color;
+}
+
+.timeline-content {
+  margin-left: 1rem;
+}
+
+.timeline-date {
+  font-size: $type-size-6;
+  color: $muted-text-color;
+}

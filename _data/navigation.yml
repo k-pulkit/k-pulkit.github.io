@@ -14,8 +14,8 @@ main:
   #   url: /tags
   - title: "Projects"
     url: /portfolio
-  # - title: "Resume"
-  #   url: /resume
+  - title: "Resume"
+    url: /resume/
   # - title: "Connect"
   #   url: /connect
   # - title: "About me"
