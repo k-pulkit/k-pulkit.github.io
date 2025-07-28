@@ -1,6 +1,6 @@
 {% assign featured_posts = site.posts | where: "featured", true %}
 {% if featured_posts.size > 0 %}
-<div class="featured-posts">
+<div class="featured-posts feature__wrapper">
   <h2>Featured Posts</h2>
   <div class="entries-grid">
   {% for post in featured_posts %}
