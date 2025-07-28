@@ -241,6 +241,7 @@ plugins:
   - jekyll-include-cache
   # Added by GS:
   - jekyll-redirect-from
+  - jekyll-admin
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -252,6 +253,7 @@ whitelist:
   # Added by GS:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-admin
 
 
 # Archives
