@@ -26,8 +26,8 @@ url                      : "https://www.pulkitkapoor.com"
 baseurl                  : ""
 repository               : "k-pulkit/me" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/bb_logo.png"
-og_image                 : "/assets/images/bb_logo.png"
+logo                     : "/assets/images/bb_logo_light.png"
+og_image                 : "/assets/images/bb_logo_light.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true #true, false (default)
 words_per_minute         : 200

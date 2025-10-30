@@ -7,7 +7,7 @@ header:
   overlay_filter: "0.4"
   overlay_image: /assets/images/bb-home-page-feature.png
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
-  cta_url: "/categories/"
+  cta_url: https://blog.pulkitkapoor.com
   caption:
 excerpt: 'Engineering smarter data, not just more data. <br /><br />
 Connect with me on <a href="https://linkedin.com/in/k-pulkit" class="btn btn--xsmall btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a><br /><br />'
