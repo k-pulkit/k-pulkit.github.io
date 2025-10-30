@@ -6,6 +6,7 @@ related: false
 permalink: /portfolio/
 collection: portfolio
 classes: wide
+
 gallery1:
   - url: https://github.com/k-pulkit/EmailReminders-React_Aws_IaC
     image_path: assets/images/collections/portfolio/email-reminders-article-600x400.png
@@ -44,18 +45,19 @@ gallery1:
         - Spark
         - DynamoDb
         - Lambda
-  # - url: https://github.com/k-pulkit/AwsStreamingDataPipeline
-  #   image_path: /assets/images/collections/portfolio/aws-twitter-capstone-project-600x400.jpg
-  #   alt: "Twitter Steaming Pipeline"
-  #   title: "Twitter Steaming Pipeline"
-  #   description: "ETL pipeline to ingest live twitter data, process it using serverless Spark on Glue, and show sentiment analysis of Tweets to user"
-  #   tags:
-  #       - AWS
-  #       - Kinesis Firehose
-  #       - Glue
-  #       - Spark
-  #       - DynamoDb
-  #       - Lambda
+  - url: https://github.com/k-pulkit/AwsStreamingDataPipeline
+    image_path: /assets/images/collections/portfolio/aws-twitter-capstone-project-600x400.jpg
+    alt: "Twitter Steaming Pipeline"
+    title: "Twitter Steaming Pipeline"
+    description: "ETL pipeline to ingest live twitter data, process it using serverless Spark on Glue, and show sentiment analysis of Tweets to user"
+    tags:
+        - AWS
+        - Kinesis Firehose
+        - Glue
+        - Spark
+        - DynamoDb
+        - Lambda
+
 gallery2:
   - url: https://github.com/k-pulkit/AwsStreamingDataPipeline
     image_path: /assets/images/collections/portfolio/scala-certificate-600x400.jpg
@@ -87,6 +89,7 @@ gallery2:
         - Spark
         - GCP
 ---
+
 <!-- <div style="display: flex; flex-wrap: wrap; justify-content: start; align-items: end; margin: 0; column-gap:1em;">
     <img style="padding: 2px; border: 0.4px solid green; border-radius:2px; margin-bottom:3px" src="https://ghchart.rshah.org/k-pulkit" alt="2016rshah's Github chart" />
     <a style="flex-grow: 1; margin-top:10px" href="https://github.com/k-pulkit" class="btn btn--small btn--linkedin">Checkout my GitHub!</a>

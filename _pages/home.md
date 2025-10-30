@@ -25,8 +25,8 @@ feature_row:
     btn_label: "Learn More"
     url: "https://github.com/k-pulkit"
   - image_path: /assets/images/mm-home-page-feature-3-474x266.jpg
-    alt: "Hire me"
-    title: "Hire me!"
+    alt: "Work with me"
+    title: "Work with me!"
     excerpt: "If you like my work, and want me to be part of your team. Do not hesitate, I am open to great opportunities!"
     url: "https://linkedin.com/in/k-pulkit"
     btn_label: "Learn More"
