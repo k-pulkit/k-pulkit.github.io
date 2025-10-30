@@ -26,8 +26,8 @@ url                      : "https://www.pulkitkapoor.com"
 baseurl                  : ""
 repository               : "k-pulkit/me" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/88x88.png"
-og_image                 : "/assets/images/bio-photo.jpg"
+logo                     : "/assets/images/bb_logo.png"
+og_image                 : "/assets/images/bb_logo.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true #true, false (default)
 words_per_minute         : 200
@@ -105,9 +105,9 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 # Google AdSense configuration
-adsense:
-  client                : "ca-pub-8680632817843377" # replace with your AdSense client ID
-  slot                  : "2946018458" # replace with your AdSense slot ID
+# adsense:
+#   client                : "ca-pub-8680632817843377" # replace with your AdSense client ID
+#   slot                  : "2946018458" # replace with your AdSense slot ID
 
 
 # Site Author
