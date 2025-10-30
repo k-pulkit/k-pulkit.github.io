@@ -5,7 +5,7 @@ title: Backfilling Average Blogs 🔥
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/bb-home-page-feature.png
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
   cta_url: "/categories/"
   caption:
