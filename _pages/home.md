@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-title: Hey there!
+title: Backfilling Average Blogs 🔥
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
@@ -9,7 +9,7 @@ header:
   cta_label: '<i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Read my blog.'
   cta_url: "/categories/"
   caption:
-excerpt: 'Hello! I''m Pulkit Kapoor, a seasoned data engineer with deep expertise in Spark and Hadoop. I''m passionate about AWS Cloud and constantly explore new technologies. <br /><br />
+excerpt: 'Engineering smarter data, not just more data. <br /><br />
 Connect with me on <a href="https://linkedin.com/in/k-pulkit" class="btn btn--xsmall btn--linkedin" title="Follow me"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a><br /><br />'
 feature_row:
   - image_path: /assets/images/mm-home-page-feature-1-474x266.jpg
